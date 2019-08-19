@@ -1,4 +1,7 @@
 
+
+
+
 git 폴더 삭제방법
 
 1. 로컬과 원격저장소 지우기
@@ -13,6 +16,14 @@ git 폴더 삭제방법
 3. git commit -m ".."
 
 4. git push origin master
+
+
+git 업로드 방법
+1. git init (가상 저장을 설정하기)
+2. git status (깃 상태 확인)
+3. git add 폴더명 (git stage 설정)
+4. git commit -m "설명" (commit 하기)
+5. git push origin master (업로드하기)
 
 
 git commends and explain site
