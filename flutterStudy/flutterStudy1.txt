@@ -28,3 +28,7 @@ git 업로드 방법
 
 git commends and explain site
 https://medium.com/qoontree-dev/git-내용정리-명령어-정리-5c580afa5334
+
+dart language learning
+https://dart.dev/guides/language/language-tour
+
