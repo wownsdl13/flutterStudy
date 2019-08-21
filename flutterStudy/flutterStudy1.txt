@@ -2,6 +2,10 @@
 
 
 
+flutter 배우기 좋은 사이트
+https://software-creator.tistory.com/11
+
+
 git 폴더 삭제방법
 
 1. 로컬과 원격저장소 지우기
