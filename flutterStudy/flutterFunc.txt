@@ -1,0 +1,20 @@
+
+페이지 전환, 타이머
+
+startTime() async {
+    var _duration = new Duration(seconds: 9);
+    return new Timer(_duration, navigationPage);
+  }//9초후에 작동시킨다.
+
+  void navigationPage() {
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => HomeScreen()),
+    );
+  }//replacement므로 stack쌓는 느낌이 아닌 그냥 교체를 뜻하는듯
+
+쌓는 페이지 전환
+Navigator.of(context).push(MaterialPageRoute(
+                      builder: (BuildContext context) => ListType()));
+
+
